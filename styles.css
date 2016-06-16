@@ -1,0 +1,137 @@
+.logo {
+	float: left;
+	margin: 20px;
+}
+
+.wrapper {
+	padding: 20px;
+	width: 100%;
+}
+
+.homeNav {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.menu {
+	margin: 0 auto; 
+	height: 30px; 
+	width: auto; 
+	display: block; 
+	padding-top: 50px;
+}
+
+.menu li { 
+	padding-right: 20px; 
+	margin: 0; 
+	list-style: none; 
+	display: inline;
+	color: gray;
+}
+
+a:link {
+	color: gray; 
+	text-decoration: none;
+}
+
+
+a:visited {
+	color: gray; 
+	text-decoration: none; 
+}
+
+a:hover {
+	color: red; 
+	text-decoration: none; 
+}
+
+.anvil {
+	float: left;
+	height: 100%;
+	width: 100%;	
+}
+
+.why {
+	font-family: helvetica;
+	color: gray;
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+	display: inline-block;
+}
+
+.h2 {
+	font-family: helvetica;
+	color: gray;
+}
+
+.para {
+	font-size: 14px;
+}
+
+.notWork {
+	font-family: helvetica;
+	color: gray;
+	float: left;
+	width: 45%;
+	display: inline-block;
+}
+
+.clear {
+	clear: both;
+}
+
+
+@media (max-width: 480px) { 
+
+	.homeNav {
+		color: gray;
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.anvil {
+		display: none;
+	}
+
+	.para {
+		font-size: 12px;
+	}
+
+	.menu {
+		float: none;
+		width: 100%;
+		display: inline-block;
+		padding: 0;
+	}
+
+	.menu li { 
+		list-style: none; 
+		display: list-item;
+		color: gray;
+		margin: 0;
+	}
+
+	.why {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.notWork {
+		width: 100%;
+
+	}
+
+	.wrapper {
+ 		width: 100%;
+ 		height: 100%;
+ 		float: left;
+ 		padding: 0;
+ 	}
+
+ 	.logo {
+ 		margin: 0;
+ 	}
+}
